@@ -65,7 +65,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .hhozvW input {
+  .querySearch input {
     margin: 5px;
     border: 1px solid darkgrey;
     border-radius: 30px;

@@ -24,7 +24,7 @@ const AddGeo = ({ modalShow, setModalShow }) => {
         >
           {data.data[0] ? (
             <div className="w-100">
-              <TopInput className="d-flex justify-content-end p-2 ">
+              <TopInput className="d-flex querySearch justify-content-end p-2 ">
                 <input
                   type="text"
                   value={query}
