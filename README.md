@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# VIEW LIVE AT : https://maac1.netlify.app
+
+portfolio : https://shaontechnical.blogspot.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
