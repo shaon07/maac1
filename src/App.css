@@ -2,6 +2,24 @@
   text-align: center;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  width: 60% !important;
+  margin: auto !important;
+}
+
+body {
+  background-image: url("./assets/images/cover.png");
+  background-color: white;
+  object-fit: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +52,80 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.kUbPXC {
+  width: 100% !important;
+  margin-top: 26px;
+  padding: 0 10px;
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+}
+
+@media (max-width: 768px) {
+  .hhozvW input {
+    margin: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+    padding: 3px 10px;
+    width: 90%;
+  }
+  .geoWithoutIcon {
+    display: none;
+  }
+  .titleContainer {
+    width: 100% !important;
+  }
+  .titles {
+    width: 100% !important;
+    margin: auto;
+  }
+  .RestitleContainer {
+    width: 100% !important;
+  }
+  .Restitles {
+    width: 100% !important;
+    margin: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .product_box img {
+    width: 30% !important;
+  }
+  .product_box h4 {
+    font-size: 1.5rem;
+  }
+
+  .product_box p {
+    width: 100%;
+    margin: auto;
+  }
+
+  .shaonabout h6 {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+  .shaonabout h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .authorBox {
+    flex-direction: row;
+    align-items: center;
+  }
+  .authorBox img {
+    width: 50%;
+  }
+  .authorContent h6 {
+    text-align: left;
+    font-size: 15px;
+  }
+  .archivement {
+    margin-top: 2rem;
   }
 }
